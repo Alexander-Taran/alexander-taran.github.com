@@ -53,7 +53,7 @@ Update `styles/css/style.scss` like this
   --table-border-color:     #{$table-border-color};
 }
 
-// now we redefive those variables to use css variables with a fallback
+// now we redefine those variables to use css variables with a fallback
 $brand-color:           var(--brand-color,$brand-color); 
 $brand-color-light:     var(--brand-color-light,$brand-color-light); 
 $brand-color-dark:      var(--brand-color-dark,$brand-color-dark); 
@@ -78,17 +78,17 @@ $table-header-bg-color: var(--table-header-bg-color,$table-header-bg-color);
 $table-header-border:   var(--table-header-border,$table-header-border);
 $table-border-color:    var(--table-border-color,$table-border-color);
 
-// now we proceed with minima
+// Now we proceed with minima.
 @import "minima/initialize";
 
 
-// define media query for dark theme users
+// Define media query for dark theme users.
 @media (prefers-color-scheme: dark) {
 
-// Import dark skin
-// We will have to alter it as well
-// It gives our variables new meaning yet again
-// but you have to remove  "!default" a the end of declarations.
+// Import dark skin.
+// We will have to alter it as well.
+// It gives our variables new meaning yet again.
+// But you have to remove  "!default" a the end of variable declarations in dark skin.
   @import "minima/skins/dark";
 
   :root {
