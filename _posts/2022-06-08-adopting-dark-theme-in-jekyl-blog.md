@@ -125,5 +125,5 @@ Chrome can emulate users theme preferences in developer tools
 
 You can find in [this commit](https://github.com/Alexander-Taran/alexander-taran.github.com/commit/dd8dcf59fa2eb596f71c315f32fee679dd2511d3)
 
-No go and adopt dark theme support.
+Now go and adopt dark theme support.
 
