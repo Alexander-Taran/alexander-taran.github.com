@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "How to make your Jekyl blog respect users theme (dark or light)"
+title: "How to make your Jekyll blog respect users theme (dark or light)"
 ---
 
 Late night browsing. Lights are off. Going to read some github pages built with Jekyll with default theme. So bright!
