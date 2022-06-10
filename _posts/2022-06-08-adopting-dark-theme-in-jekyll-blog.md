@@ -135,8 +135,12 @@ $table-border-color:    var(--table-border-color,$table-border-color);
 ```
 
 Chrome can emulate users theme preferences in developer tools  
+<picture>
+  <source srcset="/assets/images/theme-preference-emulation.webp" type="image/webp">
+  <source srcset="/assets/images/theme-preference-emulation.png" type="image/png">
+  <img src="/assets/images/theme-preference-emulation.png" alt="" />
+</picture>
 
-![](/assets/images/theme-preference-emulation.png)
 
 You can find in [this commit](https://github.com/Alexander-Taran/alexander-taran.github.com/commit/dd8dcf59fa2eb596f71c315f32fee679dd2511d3)
 
