@@ -9,7 +9,22 @@ We got so used to automatic theme switching on our devices.
 CSS supports themes with [`prefers-color-scheme`](https://developer.mozilla.org/en-US/docs/Web/CSS/@media/prefers-color-scheme).  
 With decent support in browsers.  
 
-![](/assets/images/can-i-use-prefers-color-scheme.png)
+<picture>
+<source srcset="/assets/images/can-i-use-prefers-color-scheme.webp"
+            media="(prefers-color-scheme: light)"
+            type="image/webp">
+    <source srcset="/assets/images/can-i-use-prefers-color-scheme-dark.webp"
+            media="(prefers-color-scheme: dark)"
+            type="image/webp">
+    <source srcset="/assets/images/can-i-use-prefers-color-scheme.png"
+            media="(prefers-color-scheme: light)"
+            type="image/png">
+    <source srcset="/assets/images/can-i-use-prefers-color-scheme-dark.png"
+            media="(prefers-color-scheme: dark)"
+            type="image/png">
+    <img src="/assets/images/can-i-use-prefers-color-scheme.png" alt="" />
+</picture>
+
 
 Yet most of the sites don't utilize the power of it.
 
